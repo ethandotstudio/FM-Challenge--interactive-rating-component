@@ -2,7 +2,7 @@ import { useState } from "react";
 
 function App() {
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const [stars, setStars] = useState(1);
+  const [stars, setStars] = useState(undefined);
 
   const handleStarsOnClick = (num) => {
     if (num !== stars) {
@@ -17,7 +17,11 @@ function App() {
       return (
         <>
           <div className="star-icon">
-            <img src="./public/icon-star.svg" alt="" aria-hidden="true" />
+            <img
+              src={process.env.PUBLIC_URL + "/icon-star.svg"}
+              alt=""
+              aria-hidden="true"
+            />
           </div>
           <h1>How did we do?</h1>
           <p>
@@ -69,7 +73,7 @@ function App() {
         <>
           <img
             className="thank-you-img"
-            src="./public/illustration-thank-you.svg"
+            src={process.env.PUBLIC_URL + "/illustration-thank-you.svg"}
             alt=""
             aria-hidden="true"
           />

@@ -17,7 +17,7 @@ function App() {
       return (
         <>
           <div className="star-icon">
-            <img src="/icon-star.svg" alt="" aria-hidden="true" />
+            <img src="./public/icon-star.svg" alt="" aria-hidden="true" />
           </div>
           <h1>How did we do?</h1>
           <p>
@@ -69,7 +69,7 @@ function App() {
         <>
           <img
             className="thank-you-img"
-            src="/illustration-thank-you.svg"
+            src="./public/illustration-thank-you.svg"
             alt=""
             aria-hidden="true"
           />

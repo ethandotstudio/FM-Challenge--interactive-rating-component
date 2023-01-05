@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/FM-Challenge--interactive-rating-component/static/css/main.89e6a0a3.css",
+    "main.js": "/FM-Challenge--interactive-rating-component/static/js/main.adab9a61.js",
+    "index.html": "/FM-Challenge--interactive-rating-component/index.html",
+    "main.89e6a0a3.css.map": "/FM-Challenge--interactive-rating-component/static/css/main.89e6a0a3.css.map",
+    "main.adab9a61.js.map": "/FM-Challenge--interactive-rating-component/static/js/main.adab9a61.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89e6a0a3.css",
+    "static/js/main.adab9a61.js"
+  ]
+}

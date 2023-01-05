@@ -1,8 +1,155 @@
 body {
   font-family: "Overpass";
+  background-color: var(--very-dark-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  min-width: calc(320rem / 16);
+}
+
+main {
+  background-image: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  padding: 24px;
+  border-radius: 1rem;
+  max-width: calc(412rem / 16);
+}
+
+.star-icon {
+  background-color: var(--dark-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(40rem / 16);
+  height: calc(40rem / 16);
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: calc(24rem / 16);
+  color: white;
+  margin: 16px 0 10px 0;
+}
+
+p {
+  font-size: calc(14rem / 16);
+  color: var(--light-grey);
+}
+
+ol {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 24px 0;
+}
+
+li {
+  width: calc(42rem / 16);
+  height: calc(42rem / 16);
+  background-color: var(--dark-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: var(--medium-grey);
+  cursor: pointer;
+  user-select: none;
+}
+
+.chosen {
+  background-color: var(--orange);
+  color: white;
+}
+
+button {
+  background-color: var(--orange);
+  border: none;
+  width: 100%;
+  border-radius: 3rem;
+  padding: 12px 0;
+  font-size: calc(14rem / 16);
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: calc(2rem / 16);
+  cursor: pointer;
+}
+
+button[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.thank-you-img {
+  width: calc(144rem / 16);
+  height: calc(96rem / 16);
+  margin: 0 auto;
+}
+
+.result {
+  padding: 5px 12px;
+  background-color: var(--dark-blue);
+  width: fit-content;
+  margin: 0 auto;
+  color: var(--orange);
+  border-radius: 2rem;
+  margin-top: 24px;
+}
+
+.thank-you-heading {
+  text-align: center;
+}
+
+.thank-you-text {
+  text-align: center;
+}
+
+@media (min-width: calc(460rem / 16)) {
+  main {
+    padding: 32px;
+  }
+
+  .star-icon {
+    width: calc(48rem / 16);
+    height: calc(48rem / 16);
+  }
+
+  h1 {
+    font-size: calc(28rem / 16);
+  }
+
+  p {
+    font-size: calc(15rem / 16);
+  }
+
+  li {
+    width: calc(51rem / 16);
+    height: calc(51rem / 16);
+  }
+
+  button {
+    font-size: calc(15rem / 16);
+  }
+}
+
+@media (pointer: fine) {
+  li:not(.chosen):hover {
+    background-color: var(--medium-grey);
+    color: white;
+  }
+
+  button:not([disabled]):hover {
+    background-color: white;
+    color: var(--orange);
+  }
 }
 
 :root {
+  --orange: hsl(25, 97%, 53%);
   --light-grey: hsl(217, 12%, 63%);
   --medium-grey: hsl(216, 12%, 54%);
   --dark-blue: hsl(213, 19%, 18%);

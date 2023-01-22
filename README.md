@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live Site](https://ethandotstudio.github.io/FM-Challenge--interactive-rating-component)
+- [Live Site](https://ethandotstudio.github.io/Frontend-Mentor__Interactive-Rating-Component)
 
 ## My process
 

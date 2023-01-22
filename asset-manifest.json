@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/FM-Challenge--interactive-rating-component/static/css/main.89e6a0a3.css",
-    "main.js": "/FM-Challenge--interactive-rating-component/static/js/main.ef524471.js",
-    "index.html": "/FM-Challenge--interactive-rating-component/index.html",
-    "main.89e6a0a3.css.map": "/FM-Challenge--interactive-rating-component/static/css/main.89e6a0a3.css.map",
-    "main.ef524471.js.map": "/FM-Challenge--interactive-rating-component/static/js/main.ef524471.js.map"
+    "main.css": "/Frontend-Mentor__Interactive-Rating-Component/static/css/main.89e6a0a3.css",
+    "main.js": "/Frontend-Mentor__Interactive-Rating-Component/static/js/main.cf3ad028.js",
+    "index.html": "/Frontend-Mentor__Interactive-Rating-Component/index.html",
+    "main.89e6a0a3.css.map": "/Frontend-Mentor__Interactive-Rating-Component/static/css/main.89e6a0a3.css.map",
+    "main.cf3ad028.js.map": "/Frontend-Mentor__Interactive-Rating-Component/static/js/main.cf3ad028.js.map"
   },
   "entrypoints": [
     "static/css/main.89e6a0a3.css",
-    "static/js/main.ef524471.js"
+    "static/js/main.cf3ad028.js"
   ]
 }
